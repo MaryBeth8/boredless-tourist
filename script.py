@@ -1,15 +1,15 @@
 """This is the Boredless Tourist project from Codecademy's Computer Science path.
 This project contains a recommendation engine designed to give tourists the power to 
-find the parts of the city that fit the pace of their life.
-This engine first evaluate a person's interests, then gives recommendations in the area 
-to venues, restaurants, and historical destinations that they are likely to be enjoyable. 
+find the parts of the city that fit their interests.
+This engine evaluates a person's interests, then gives recommendations in the area 
+to venues, restaurants, and historical destinations that they are likely to enjoy. 
 """
 
 # list of possible destinations
 destinations = ["Paris, France", "Shanghai, China", "Los Angeles, USA", "So Paulo, Brazil", "Cairo, Egypt"]
 
 # define a test traveler to see how the engine's functionality is working
-test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
+#test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
 
 # return index of a destination
 def get_destination_index(destination):
